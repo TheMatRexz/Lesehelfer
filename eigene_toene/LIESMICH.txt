@@ -1,0 +1,42 @@
+EIGENE TÖNE FÜR DEN LESEHELFER
+==============================
+
+Hier kannst du die eingebauten Töne durch eigene ersetzen.
+
+WELCHE TÖNE GIBT ES?
+  pause.wav        spielt, wenn das Vorlesen pausiert wird
+  weiter.wav       spielt, wenn das Vorlesen weitergeht
+  gespeichert.wav  spielt, wenn ein Textfeld neu markiert und gespeichert wurde
+
+SO GEHT'S
+1. Such dir einen Ton aus, z. B. ein kurzes "Blip" oder "Pling".
+2. Er muss eine WAV-Datei sein (Endung .wav).
+   MP3 oder andere Formate funktionieren nicht - siehe "Umwandeln" unten.
+3. Benenne die Datei genau so wie oben, z. B. "pause.wav".
+   Achte darauf, dass Windows nicht heimlich "pause.wav.wav" daraus macht
+   (im Explorer unter "Anzeigen" -> "Dateinamenerweiterungen" einschalten).
+4. Lege die Datei direkt in DIESEN Ordner (eigene_toene).
+5. Fertig. Ein Neustart ist nicht nötig - beim nächsten Pause/Weiter
+   wird schon dein Ton gespielt.
+
+ZURÜCK ZUM EINGEBAUTEN TON
+Einfach deine Datei aus diesem Ordner löschen oder umbenennen.
+
+VORLAGEN
+Im Unterordner "vorlagen" liegen die eingebauten Töne zum Anhören
+oder als Ausgangspunkt. Die werden NICHT benutzt - nur Dateien direkt
+in diesem Ordner zählen.
+
+TIPPS
+- Kurz halten: am besten unter 1 Sekunde, sonst wirkt es träge.
+- Nicht zu laut: der Ton kommt über dieselben Lautsprecher wie das Spiel.
+- Damit man Pause und Weiter unterscheiden kann, eignen sich zwei
+  verschiedene Töne (z. B. einer tief, einer hoch).
+
+UMWANDELN IN WAV
+- Mit dem kostenlosen Programm "Audacity": Datei öffnen, dann
+  "Datei -> Exportieren -> Als WAV exportieren".
+- Oder mit einem Online-Umwandler (Suche nach "MP3 in WAV umwandeln").
+
+Ob dein Ton erkannt wurde, sieht man im Ordner "protokoll"
+in der neuesten Datei - dort steht bei Problemen eine Meldung.

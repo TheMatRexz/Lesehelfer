@@ -1,0 +1,72 @@
+LESEHELFER  -  liest Texte aus Spielen, vom Desktop und in VR laut vor
+=====================================================================
+
+STARTEN
+Doppelklick auf "Lesehelfer_starten.bat". Mehr muss man nicht anklicken.
+- Kommt eine blaue Warnung "Der Computer wurde durch Windows geschützt":
+  auf "Weitere Informationen" und dann auf "Trotzdem ausführen" klicken.
+- Alles Nötige ist schon im Ordner dabei. Man muss nichts herunterladen oder installieren.
+- Den ganzen Ordner "Lesehelfer" behalten - nichts daraus löschen oder verschieben.
+
+ERSTE EINRICHTUNG
+Die Stimme sagt dir, was zu tun ist: Spiel starten, bis ein Text zu sehen ist,
+dann auf "Textfeld markieren" klicken und ein Rechteck um das Textfeld ziehen.
+Wechselt der Text oft die Stelle: einfach das GANZE Spielbild markieren.
+
+IM FENSTER
+- Großer grüner Knopf (oben): Pause / weiter
+- Darunter vier Reiter:
+  Spiele        - zuletzt vorgelesen, Verlauf, Textfeld markieren, ein Profil pro Spiel,
+                  Haken "Englische Texte ins Deutsche übersetzen"
+  Desktop       - Vorlesen mit der Maus (siehe unten)
+  VR            - Vorlesen in VR (siehe unten)
+  Einstellungen - Frau / Mann, Tempo, Lautstärke, Töne bei Pause / Weiter,
+                  Texterkennung auf Prozessor oder Grafikkarte,
+                  Tasten, Mini-Leiste, Sichtbarkeit in Discord
+- Ob ein Text Deutsch oder Englisch ist, erkennt der Lesehelfer selbst.
+- Eigene Töne: siehe Ordner eigene_toene\LIESMICH.txt
+
+VORLESEN MIT DER MAUS (Reiter "Desktop")
+- Es arbeitet immer nur ein Bereich: Reiter "Spiele" offen = Spieltexte werden gelesen,
+  Reiter "Desktop" offen = Vorlesen mit der Maus. Der andere ruht so lange.
+  Genauso beim Reiter "VR". (Einstellungen ändern daran nichts.)
+- "Mit Taste": mit der Maus auf einen Text zeigen und die Taste drücken.
+  Die Taste ist am Anfang frei - unter "Taste festlegen" selbst eine wählen.
+  Nochmal drücken stoppt das Vorlesen.
+- "Automatisch": Maus kurz still auf einem Text liegen lassen (Wartezeit einstellbar).
+- Funktioniert in Programmen, auf Webseiten, in Ordnern und Menüs.
+  Wo das nicht geht (Bilder, Videos), wird der Text um die Maus herum erkannt.
+
+VORLESEN IN VR (Reiter "VR", z. B. Oculus Rift S mit SteamVR)
+- SteamVR starten und am PC die VR-Ansicht öffnen: im SteamVR-Fenster ☰ -> "VR-Ansicht anzeigen".
+  Das Fenster darf auf dem zweiten Bildschirm liegen, aber nicht minimiert sein.
+- Reiter "VR" öffnen. Dort steht, ob SteamVR und die VR-Ansicht gefunden wurden.
+  Wird die VR-Ansicht nicht gefunden: im Auswahlfeld das richtige Fenster wählen.
+- Controller-Taste: Standard ist "rechten Stick drücken". Ändern mit "Taste in SteamVR ändern"
+  oder in SteamVR: Einstellungen -> Controller -> Controllerbelegungen verwalten -> Lesehelfer.
+- Im Spiel: auf einen Text schauen, Taste drücken -> der Text in der Blickmitte wird vorgelesen.
+  Nochmal drücken stoppt. "Automatisch": liest Texte, die eine Weile ruhig in der Blickmitte liegen.
+- "Größe der Blickmitte": wie groß der Bereich um die Mitte ist, in dem gesucht wird.
+
+PROZESSOR ODER GRAFIKKARTE (Reiter "Einstellungen")
+- Automatisch: Grafikkarte, nur in VR der Prozessor (die Brille braucht die Grafikkarte selbst).
+- Mit der Grafikkarte ist die Texterkennung schneller und der Prozessor hat mehr Ruhe.
+- Klappt die Grafikkarte nicht, nimmt der Lesehelfer von selbst den Prozessor.
+
+TASTEN (änderbar unter "Tasten")
+  F9   Pause / weiter          F10  Letzten Satz nochmal
+  F7   Frau / Mann             F8   Textfeld markieren
+  Strg+Q  Beenden
+  Text unter der Maus / VR: frei, selbst festlegen (Entf entfernt eine Taste wieder)
+
+ORDNER
+  programm\    das Programm selbst
+  daten\       Einstellungen und Sprachmodelle
+  eigene_toene\ hier eigene Töne für Pause/Weiter ablegen (siehe LIESMICH.txt)
+  protokoll\   ein Protokoll pro Start (die letzten 10) - bei Problemen die neueste Datei weitergeben
+
+GUT ZU WISSEN
+- Die schönen Stimmen brauchen Internet. Ohne Internet kommt eine einfache Windows-Stimme.
+- Texterkennung und Übersetzung laufen komplett auf dem PC.
+- Spiel im Fenster oder "randlosen Vollbild" spielen, nicht im "exklusiven Vollbild".
+- Funktioniert nur unter Windows 10 oder 11.
