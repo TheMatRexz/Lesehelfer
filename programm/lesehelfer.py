@@ -33,7 +33,7 @@ for _d in (DATEN, PROTOKOLL):
 EINST_DATEI = os.path.join(DATEN, "einstellungen.json")
 
 # ---------------------------------------------------------------- Updates
-VERSION = "1.0.0"
+VERSION = "1.0.1"
 UPDATE_QUELLE = "https://raw.githubusercontent.com/TheMatRexz/Lesehelfer/main/"
 UPDATE_MERKER = os.path.join(DATEN, "gerade_aktualisiert.txt")
 UPDATE_ABSTAND = 6 * 3600     # während das Programm läuft: alle 6 Stunden nachsehen
